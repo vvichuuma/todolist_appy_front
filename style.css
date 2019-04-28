@@ -1,0 +1,35 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.nav-link{
+  margin-right: 2rem;
+
+}
+
+.link:hover{
+  color: red;
+}
+
+#todo{
+  font-family: 'Crimson Text', serif;
+  letter-spacing: 0.5rem;
+}
+
+
+.vichu{
+font-family: 'Inconsolata', monospace;
+
+}
+
+.container-fluid{
+  text-align: center;
+  border:1px solid red;
+  padding:10%;
+}
+
+#plan{
+  font-family: 'BioRhyme Expanded', serif;
+
+}

@@ -29,6 +29,19 @@ font-family: 'Inconsolata', monospace;
   padding:1rem;
 }
 
+.center_button{
+  border:1px solid red;
+
+
+}
+
+.center_button button{
+  width: 20%;
+  margin:0 40%;
+}
+
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
  
@@ -37,6 +50,10 @@ font-family: 'Inconsolata', monospace;
   width: 90%;
   margin: 0 auto;
 
+}
+.center_button button{
+  width: 40%;
+  margin:0 30%;
 }
 
 
@@ -52,6 +69,11 @@ font-family: 'Inconsolata', monospace;
 
 }
 
+.center_button button{
+  width: 40%;
+  margin:0 30%;
+}
+
 
 } 
 
@@ -63,6 +85,11 @@ font-family: 'Inconsolata', monospace;
   width: 55%;
   margin: 0 auto;
 
+}
+
+.center_button button{
+  width: 30%;
+  margin:0 35%;
 }
 
  
@@ -79,6 +106,11 @@ font-family: 'Inconsolata', monospace;
 
 }
 
+.center_button button{
+  width: 20%;
+  margin:0 40%;
+}
+
 
 
 } 
@@ -91,6 +123,11 @@ font-family: 'Inconsolata', monospace;
   width: 40%;
   margin: 0 auto;
 
+}
+
+.center_button button{
+  width: 20%;
+  margin:0 40%;
 }
 
 

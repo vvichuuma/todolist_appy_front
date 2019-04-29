@@ -1,0 +1,95 @@
+.vichu{
+font-family: 'Inconsolata', monospace;
+
+}
+.home img{
+
+  height: 3rem;
+
+}
+
+.home{
+  margin:0 auto;
+}
+
+#login{
+
+  margin-top: 12%;
+  
+}
+
+.inner_content{
+
+  width: 35%;
+  margin:0 auto;
+}
+
+#login_btn{
+
+
+}
+
+.btn_class{
+
+}
+
+.btn_class button{
+  margin:0 40%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .inner_content{
+
+  width: 90%;
+  margin:0 auto;
+}
+
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .inner_content{
+
+  width: 60%;
+  margin:0 auto;
+}
+
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+   .inner_content{
+
+  width: 44%;
+  margin:0 auto;
+}
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  .inner_content{
+
+  width: 40%;
+  margin:0 auto;
+}
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+.inner_content{
+
+  width: 36%;
+  margin:0 auto;
+}
+
+
+
+}

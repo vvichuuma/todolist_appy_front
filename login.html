@@ -8,26 +8,52 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="login.css">
+
     <title>Login_Page!</title>
   </head>
   <body>
       
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#" style="color: white"><span class="vichu">Login_Page!</span></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
+      <span class="home "><a href="index.html"><img src="home_grey.png" alt=""></a></span>
+ 
      </nav>
 
 
+    <div id="login">
+     <form action="#">
 
 
+        <div class="form-group ">
+           
+           <div class="inner_content">
+          <label for="exampleInputEmail1">Email : </label>
+          <div class="form-group row">
+             <div class="col-lg-12">
+         <input type="email" class="form-control" id="email_1" aria-describedby="emailHelp" placeholder="Enter email">
+             </div>
+          </div>
+
+          <label for="inputPassword">Password : </label>
+          <div class="form-group row">
+             <div class="col-lg-12">
+         <input type="password" class="form-control" id="pass"  placeholder="Enter password">
+             </div>
+          </div>
+          
+          <div class="btn_class">
+          <button type="submit" class="btn btn-primary" id="login_btn" onclick="logsin()">Login</button></div>
+           </div>
+        </div>
 
 
+     </form>
 
+      </div>
 
-
+     
+     <script src="login.js"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

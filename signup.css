@@ -1,0 +1,98 @@
+.vichu{
+font-family: 'Inconsolata', monospace;
+
+}
+.home img{
+
+  height: 3rem;
+}
+
+.home{
+  margin:0 auto;
+}
+
+.form-group{
+
+  margin-top: 7%;
+
+}
+
+.formy{
+
+  width: 30%;
+  margin: 0 auto;
+
+}
+
+.paddy{
+
+  padding:1rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ 
+.formy{
+
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+.formy{
+
+  width: 60%;
+  margin: 0 auto;
+
+}
+
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+.formy{
+
+  width: 55%;
+  margin: 0 auto;
+
+}
+
+ 
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+ 
+ .formy{
+
+  width: 50%;
+  margin: 0 auto;
+
+}
+
+
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+ .formy{
+
+  width: 40%;
+  margin: 0 auto;
+
+}
+
+
+
+}
